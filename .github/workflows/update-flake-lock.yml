@@ -4,6 +4,8 @@ on:
   schedule:
     - cron: '0 0 * * 1,4' # Run twice a week
 
+permissions: write-all
+
 jobs:
   lockfile:
     runs-on: ubuntu-latest
